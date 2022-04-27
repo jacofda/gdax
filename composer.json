@@ -1,0 +1,14 @@
+{
+  "name": "jacofda/gdax",
+  "description": "GDAX API library",
+  "keywords": [ "bitcoin", "gdax", "coinbase" ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": { "Jacofda\\Gdax\\": "src/" }
+  },
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
